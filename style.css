@@ -1,0 +1,49 @@
+.navbar {
+    background-color: #006A4E;
+    width: 53%;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr 6fr 6fr;
+    gap: 10px;
+}
+
+.the-nav {
+    background-color:#9370DB;
+    padding: 5px;
+    border-radius: 10px;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.side-bar {
+    background-color: #2a52be;
+    padding: 5px;
+    border-radius: 10px;
+    grid-column: 1;
+    grid-row: 1 / span 2;
+}
+
+.article {
+    background-color: #8A2BE2;
+    padding: 5px;
+    border-radius: 10px;
+    grid-column: 2;
+    grid-row: 2;
+}
+.footer {
+    background-color: #5c5470;
+    padding: 5px;
+    border-radius: 10px;
+    width: 53%;
+}
+.words {
+    color: white;
+}
